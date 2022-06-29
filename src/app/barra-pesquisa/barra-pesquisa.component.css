@@ -1,0 +1,18 @@
+.search-form input{
+
+    background-color: var(--blue);
+    outline: none;
+    color:#fff;
+}
+
+.search-form button{
+
+    width: 56px;
+    height: 56px;
+    background-color: var(--blue);
+    border: none;
+    color:#fff;
+    font: size 22px;
+}
+
+
