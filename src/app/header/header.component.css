@@ -8,8 +8,9 @@
 }
 
 .main-header__title {    
-    font-size: 92px;
-    letter-spacing: -1.5px;    
+    font-size: 90px;
+    letter-spacing: -1.5px;
+    padding: 2px;    
 }
 
 .main-header__title--blue {
@@ -23,6 +24,7 @@
 .main-header__menu ul {
     display: flex;
     justify-content: flex-end;
+    padding: 5px;
 }
 
 .main-header__menu a {
@@ -37,6 +39,7 @@
 .main-header__menu a:hover {
     background-color: var(--blue);
     color: #fff;
+    border-radius: 20px;
 }
 
 .container-menu {
@@ -48,8 +51,9 @@
 
 .badge-carrinho {
     background-color: var(--dark-blue);
-    padding: 5px 10px;    
-    border-radius: 4px;
+    padding: 5px 5px ;    
+    border-radius: 20px;
     color: white;
+   
 }
 

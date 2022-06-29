@@ -10,11 +10,11 @@ export class ProdutosService {
 
   constructor() { }
 
-  getALL(){
+    getALL(){
 
     return this.produtos;
   }
-  getOne(produtoId:number){
+    getOne(produtoId:number){
      return this.produtos.find(produto =>produto.id = produtoId);
 
   }

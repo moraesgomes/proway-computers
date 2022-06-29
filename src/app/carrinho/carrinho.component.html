@@ -4,7 +4,7 @@
       <li *ngFor="let itemCarrinho of itensCarrinho">
 
           <img [src]="itemCarrinho.imagem" />
-          <p>{{itemCarrinho.descricao}}/p>
+          <p>{{itemCarrinho.descricao}}</p>
           <p>{{itemCarrinho.preco | currency:"BRL"}}</p>
           <label>
                Quantidade:
